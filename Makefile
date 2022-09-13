@@ -3,12 +3,12 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_hello.py
+	python -m pytest -vv test_*.py
 
-format:
-	black *.py
+format:	
+	black *.py dblib/*py
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py dblib
 
 all: install lint test
