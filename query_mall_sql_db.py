@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import click
 from dblib.querydb import querydb
 
@@ -11,14 +10,10 @@ def cli():
 
 # build a click command
 @cli.command()
-@click.option(
-    "--query",
-    default="SELECT * FROM default.diamonds LIMIT 2",
-    help="SQL query to execute",
-)
-def cli_query(query):
+@click.option("--income", default=15, help="Type in the customer's anual income")
+def cli_query(income):
     """Execute a SQL query"""
-    result = querydb(query)
+    result = querydb(income)
     click.echo(result)
 
 
