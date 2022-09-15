@@ -1,7 +1,7 @@
 import os
 from databricks import sql
 
-def querydb(income=15):
+def querydb(income=50):
     query = "SELECT Spending_Score FROM default.mallcustomers_csv WHERE Annual_Income = {0}".format(
         income
     )

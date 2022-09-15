@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Databricks!"}
+    return {"message": "Welcome to my Databricks sql query!"}
 
 
 @app.get("/query")
@@ -15,7 +15,7 @@ async def query():
     """Excute a SQL query"""
 
     result = querydb()
-    return {"result": result}
+    return {"Spending score of customers with $50,000 annual income": result}
 
 
 if __name__ == "__main__":

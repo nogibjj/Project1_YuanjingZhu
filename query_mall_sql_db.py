@@ -10,7 +10,7 @@ def cli():
 
 # build a click command
 @cli.command()
-@click.option("--income", default=15, help="Type in the customer's anual income")
+@click.option("--income", default=50, help="Type in the customer's annual income")
 def cli_query(income):
     """Execute a SQL query"""
     result = querydb(income)
