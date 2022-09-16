@@ -12,6 +12,10 @@ In this project, I downloaded a Mall Customer Segmentation Dataset from Kaggle a
 ## Dataset
 The dataset comes from [Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python). It contains customer information including Customer ID, age, gender, annual income and spending score from a supermarket. The spending score is assigned to each customer based on their spending nature and purchasing behavior. By analyzing the dataset, the supermarket owner can segment their customers and excute effective strategy accordingly. 
 
+<img src="https://user-images.githubusercontent.com/110933007/190728414-a6779a6d-a885-4867-bc88-953b0170ae64.png" >
+
+
+
 ## Connecting Codespaces and Databricks
 
 Created four secrets in GitHub settings. The four secrets are DATABRICKS_HOST, DATABRICKS_HTTP_PATH, DATABRICKS_SERVER_HOSTNAME and DATABRICKS_TOKEN.
@@ -47,5 +51,7 @@ The ```chmod``` command is used to manage file system access permissions on Unix
 python fastapi-app.py 
 ```
 After typing the code in the terminal, a new web page will open and the home page says "Welcome to my Databricks sql query!". Type "/query" at the end of the url, the web page will return the customer's spending score. 
+
+<img src="https://user-images.githubusercontent.com/110933007/190729294-efa7d319-a915-49db-bd44-0c28600aaa61.png" width=50% height=50%>
 
 
