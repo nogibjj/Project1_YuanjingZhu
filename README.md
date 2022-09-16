@@ -40,8 +40,7 @@ chmod +x query_mall_sql_db.py
 ./query_mall_sql_db.py cli-query  --help
 ./query_mall_sql_db.py cli-query  --income "60"
 ```
-
-
+The ```chmod``` command is used to manage file system access permissions on Unix and Unix-like systems, ```+x``` means to excute.  ```chi-query``` is the function name. Type ```--help``` to see the instruction or type ```--income"int"``` to excute the sql query. 
 
 ## Web app
 ```
