@@ -2,7 +2,9 @@
 
 [![Python application test with Github Actions](https://github.com/nogibjj/nogibjj-IDS706_Project1_YZ/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/nogibjj-IDS706_Project1_YZ/actions/workflows/main.yml)
 
-This the repository for project 1 of IDS706Data_Engineering_Systemm
+This the repository for project 1 of IDS706Data_Engineering_System.
+
+Here is the [demo video](https://teams.microsoft.com/l/message/19:9e5856d19b4f42eaa8d38f159d93a640@thread.tacv2/1663433035443?tenantId=cb72c54e-4a31-4d9e-b14a-1ea36dfac94c&groupId=428262e3-7a97-45de-8ed6-eb751b9cb87c&parentMessageId=1663433035443&teamName=IDS.706.01.F22&channelName=Week%203%20Demo_Project%201&createdTime=1663433035443&allowXTenantAccess=false) for this project.
 
 ## Overview
 In this project, I downloaded a Mall Customer Segmentation Dataset from Kaggle and upload to the Databricks. Then I connect my Github Codespaces with my Databricks cluster, wrote a function to excute SQL query, built a command line tool and finally a simple web app. By default, the query returns the spending score of customers with $50k annual income, and users can put any income number they are interested in and all the customers' spending score will be displayed. 
