@@ -35,7 +35,7 @@ databricks jobs list --output JSON | jq
 The default sql query will return the spending score of customers whose annual income are $50,000. Using the querydb function, it will return the spending score of all customers whose annual income is the number assigned. \
 For example:
 
-<img src="https://user-images.githubusercontent.com/110933007/190535012-62bccc33-f80a-442d-b320-6819ca1c9a76.png" width=75% height=75%>
+<img src="https://user-images.githubusercontent.com/110933007/190535012-62bccc33-f80a-442d-b320-6819ca1c9a76.png" width=85% height=85%>
 
 
 ## Command line tool
@@ -52,6 +52,6 @@ python fastapi-app.py
 ```
 After typing the code in the terminal, a new web page will open and the home page says "Welcome to my Databricks sql query!". Type "/query" at the end of the url, the web page will return the customer's spending score. 
 
-<img src="https://user-images.githubusercontent.com/110933007/190729294-efa7d319-a915-49db-bd44-0c28600aaa61.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/110933007/190729294-efa7d319-a915-49db-bd44-0c28600aaa61.png" width=60% height=60%>
 
 
